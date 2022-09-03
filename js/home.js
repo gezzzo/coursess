@@ -64,14 +64,3 @@ hideQ[0].addEventListener("click", () => {
 });
 
 
-showQ[1].addEventListener("click", () => {
-    answer[1].classList.toggle("show");
-    hideQ[1].classList.toggle("d-none");
-    showQ[1].style.display = "none";
-});
-
-hideQ[1].addEventListener("click", () => {
-    answer[1].classList.toggle("show");
-    hideQ[1].classList.toggle("d-none");
-    showQ[1].style.display = "inline";
-});
